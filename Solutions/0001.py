@@ -23,10 +23,13 @@ def two_sum(nums, k):
     
     return False
 # If we complete the loop without finding a pair, return False
+
+# Some examples:
 if __name__ == "__main__":
-    print(check_target_sum([], 17))
-    print(check_target_sum([10, 15, 3, 7], 17))
-    print(check_target_sum([9, 15, 3, 7], 17))
+    print(two_sum([], 17))
+    print(two_sum([10, 15, 3, 7], 17))
+    print(two_sum([9, 15, 3, 7], 17))
+
 
 """
 Time Complexity:   O(n)
